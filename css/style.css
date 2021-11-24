@@ -43,10 +43,6 @@ html{
 .nav-item:hover a{
     color: hsl(4, 48%, 67%);
 }
-.demo{
-    height: 100vh;
-    background-color: rgb(243, 243, 243);
-}
 #home {
   height: 100vh;
   background-color: #bdb2ff;
