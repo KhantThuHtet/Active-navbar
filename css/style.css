@@ -9,13 +9,16 @@
 body {
   font-family: "Rubik", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .nav-bar {
   width: 100%;
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
   background-color: #fff;
+  box-shadow: 0 0 1px rgb(121, 115, 115);
 }
 .nav-bar ul {
   display: flex;
@@ -31,11 +34,19 @@ body {
 .nav-item a {
   text-decoration: none;
   color: rgb(61, 61, 61);
+  transition-duration: 0.4s;
+
 }
 .nav-item a:active {
   color: rgb(61, 61, 61);
 }
-
+.nav-item:hover a{
+    color: hsl(4, 48%, 67%);
+}
+.demo{
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+}
 #home {
   height: 100vh;
   background-color: #bdb2ff;
